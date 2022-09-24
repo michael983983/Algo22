@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-24 07.14.12 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOS0yNDswNy4xMi4wOCBQTTsyNjIz"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOS0yNDswNy4xNC4xMiBQTTsxOzI3Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bilangan" type="Integer" array="False" size=""/>
+            <input variable="bilangan"/>
+            <if expression="bilangan % 2 = 0">
+                <then>
+                    <output expression="&quot;GENAP&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;GANJIL&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

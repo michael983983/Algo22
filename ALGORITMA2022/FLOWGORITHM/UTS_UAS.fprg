@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-01 12.23.58 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOC0zMTswOS4yNC4zMyBQTTsyNjIz"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOS0wMTsxMi4yMy41OCBBTTsyOzI3MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="UTS, UAS, Nilai" type="Integer" array="False" size=""/>
+            <input variable="UTS"/>
+            <input variable="UAS"/>
+            <assign variable="Nilai" expression="(UTS + UAS) / 2"/>
+            <if expression="Nilai &gt;= 60">
+                <then>
+                    <output expression="&quot;Lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tidak Lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

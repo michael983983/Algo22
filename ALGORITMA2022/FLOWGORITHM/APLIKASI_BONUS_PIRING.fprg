@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-31 09.35.22 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOC0zMTswOS4xOC4wMCBQTTsyNjIw"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOC0zMTswOS4zNS4yMiBQTTszOzI3MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Harga, Jumlah, Total" type="Integer" array="False" size=""/>
+            <input variable="Harga"/>
+            <input variable="Jumlah"/>
+            <assign variable="Total" expression="Harga * Jumlah"/>
+            <if expression="Total &gt; 1000000">
+                <then>
+                    <output expression="&quot;total belanja anda: &quot;&amp; total &amp;&quot; Bonus anda: Piring Cantik&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;TerimaKasih&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-31 09.40.25 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOC0zMTswOS4zNy4wMiBQTTsyNjIz"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR0lKRkxEODM7MjAyMi0wOC0zMTswOS40MC4yNSBQTTsxOzI3MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Alas, Tinggi" type="Integer" array="False" size=""/>
+            <declare name="Luas" type="Real" array="False" size=""/>
+            <input variable="Alas"/>
+            <input variable="Tinggi"/>
+            <assign variable="Luas" expression="1/2 * Alas * Tinggi"/>
+            <output expression="Luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
