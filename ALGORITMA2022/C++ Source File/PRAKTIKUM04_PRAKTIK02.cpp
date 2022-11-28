@@ -7,5 +7,5 @@ int main(){
 	bool ratusan = angka > 99 && angka < 1000;
 	cout << ratusan << endl;
 	
-	return 0;
+	return angka;
 }

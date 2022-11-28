@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-int nilai ;
+int nilai = 1;
 while (nilai%2 !=0){
 cout << "Masukkan bilangan genap ";
 cin >> nilai;
