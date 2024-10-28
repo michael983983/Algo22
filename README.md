@@ -1,1 +1,1 @@
-This repository offers a comprehensive collection of algorithm learning materials from Universal University, primarily featuring content in C++. It includes source code and flowchart representations to enhance understanding and facilitate learning
+This repository offers a comprehensive collection of algorithm learning materials from Universal University, primarily featuring content in C++. It includes source code and flowchart representations to enhance understanding and facilitate learning.
